@@ -12,7 +12,8 @@ The primary motivation behind this project is to provide a tool that helps users
 
 - **Calculate Accumulated Wealth**: Computes the total amount accumulated over the specified period, including both initial capital and periodic contributions.
 - **Track Contributions**: Keeps track of the total contributions made over time.
-- **Visualize Growth**: Plots the evolution of accumulated wealth, contributions, and interest to provide a clear visual representation of financial growth.
+- **Visualize Growth**: Pops up a plots with the evolution of accumulated wealth, contributions, and interest to provide a clear visual representation of financial growth.
+- **Saves a sumarry**: The script saves in the same directory a tabluar summary of the accumulated interests, capital and total savings, with a data entry/row for each period specified.
 
 ## Requirements
 
