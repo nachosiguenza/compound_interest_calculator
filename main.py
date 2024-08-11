@@ -70,7 +70,7 @@ sns.lineplot(x="date", y="accumulated_amount", data=df, label="Accumulated Wealt
 sns.lineplot(x="date", y="cumulative_contributions", data=df, label="Contributed Capital")
 sns.lineplot(x="date", y="accumulated_interest", data=df, label="Accumulated Interest")
 
-plt.title("Evolution of Total Accumulated Wealth, Accumulated Interest, and Contributed Capital", fontweight="bold", fontsize=16)
+plt.title("Evolution of Total Accumulated Wealth, Accumulated Interest and Contributed Capital", fontweight="bold", fontsize=16)
 plt.xlabel("Periods")
 
 plt.xticks(rotation=90)
