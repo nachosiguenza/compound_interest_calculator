@@ -6,7 +6,7 @@ The Financial Growth Calculator is a Python script designed to calculate and vis
 
 ## Motivation
 
-The primary motivation behind this project is to provide a tool that helps users visualize how their initial capital, periodic contributions, and interest rates interact to produce growth in their investments. By calculating and plotting these values, users can better plan and manage their finances.
+The primary motivation behind this project is to provide a tool that helps users visualize how their initial capital, periodic contributions, and interest rates interact to produce growth in their investments. By calculating and plotting these values, users can better plan, manage their finances and finally understand the undergoing mechanisms of compund interest.
 
 ## Features
 
