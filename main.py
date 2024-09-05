@@ -55,7 +55,7 @@ df = pd.DataFrame({"date": vector_dates,
                    "contributions": vector_contributions,
                    "accumulated_amount": accumulated_amount_vector})
 
-df['date'] = pd.to_datetime(df['date'], format="%m%Y")
+df['date'] = pd.to_datetime(df['date'], format="%m%Y").dt.date
 df["contributions_t"] = df["contributions"].astype(int)
 df = df.sort_values('date', ascending=True)
 df['cumulative_contributions'] = df['contributions_t'].cumsum()
